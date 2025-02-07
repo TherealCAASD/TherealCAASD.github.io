@@ -57,10 +57,9 @@ Moving forward, I aim to refine the model by incorporating external perturbation
             <h2> Current Features</h2>
 <p> As previously mentioned this system goes through a Hohmann transfer in the Earth Centred Inertia (ECI) frame and then moves the CubeSat from earth orbit to a heliocentric orbit. A heliocentric orbit is an orbit rotating around the sun instead of the earth, this sort of orbit transfer takes a higher initial burn velocity compared to simple Hohmann transfers such as from Leo to Geostationary orbit. This system also maps out all the possible discrepancies of the orbit in LEO in the Earth-Centred Earth Fixed (ECEF) frame. The following images show these:  </p>            
             </section>
-        
+        <hr>
             <section id=" System Interaction">
             <h2>System Diagrams</h2>
-            <!-- Insert your images here -->
             <img src="System%20Interaction.jpeg" alt="System Interaction">
 <p> This diagram shows the architecture of the Orbit Prediction and Orbit Tracking Control system for a CubeSat. It integrates the following subsystems: Attitude Determination and Control System (ADCS), Propulsion System, and Telemetry System, to achieve accurate orbit modelling and control. Sensor inputs, such as data from star trackers and sun sensors, feed into the system to provide attitude and propulsion parameters, including, Euler angles, thrust direction, and specific impulse. These inputs alongside the CubeSat's initial position, velocity, and orientation, form the basis for defining its orbit state.  </p>
 <p> The system performs key tasks like orbit manoeuvre calculations done in Hohmann transfers, orbit propagation in various frames, and modelling external perturbations such as atmospheric drag, solar radiation pressure, and J2/J22 effects. Feedback from orbit parameters informs control adjustments, including delta v calculations and thruster operations, ensuring alignment with desired orbital states. Outputs such as velocity, position velocity, orbit trajectory, and delta-v targets provide actionable data to guide mission operations effectively. </p>
@@ -69,10 +68,10 @@ Moving forward, I aim to refine the model by incorporating external perturbation
 
             
            <section id="videos">
-    <h2>Animated Plot</h2>
+    <h2>Figures & Plots </h2>
     <video controls>
         <source src="Orbit%20Plot.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support video tags.
     </video>
 </section>
 
