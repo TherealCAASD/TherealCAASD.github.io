@@ -70,16 +70,24 @@ Moving forward, I aim to refine the model by incorporating external perturbation
             
            <section id="videos">
     <h2>Figures & Plots </h2>
-                <img src="OrbitPLot.jpeg" alt = "3D Orbit Plot Hohmann Transfer">
+                <img src="OrbitECI.jpeg" alt = "3D Orbit Plot Hohmann Transfer">
                     <p>The 3D plot above shows the CubeSat's orbital evoloution, highlighting a Hohmann transfer. Initially in low Earth orbit (LEO), the CubeSat completess multiple revolutions around the Earth while our system tracks its passage through apogee and perigee. Once the conditions are met,the system calculates the required delta-v to perform the transfer at the ascending node.This maneuver raises the CubeSat's orbit to a higher altitude, marking the first step in transitioning towards an interplanetary trajectory. The orbital propagation system then updates the CubeSat's new trajectory and verifies the stability of the transfer.</p>
                    <p> </p>
+                <img src="OrbitECEF.jpeg" alt = "Disrepency of CubeSat Orbit around Earth">
+                <p>The image above maps the orbit of the CubeSat in an Earth centred Earth Fixed (ECEF) frame. It maps out the discrepencys in the number of passgaes the cubesat makes around the apogee and the perigee of the orbit.</p>
     <video controls>
         <source src="Orbit%20Plot.mp4" type="video/mp4">
         Your browser does not support video tags.
     </video>
+                <p>Above is an animated video of the ECI frame hohmann transfer to help with visualing how the hohmann traansfer looks.</p>
 </section>
 
-       
+<section>
+<section id = "Future Works">
+     <h2>Future Work</h2>
+     <p>My projet is working towards having a orbit prediciton system that takess the cubesat to an orbit chosen by the user, weather they want to keep it in low Earth orbit (LEO), or move it to a heliocentric orbit or even model it around an aestroid. This is what im working toward at the moment, Ive managed to transfer the data into heliocentric data points an now need to plot this in order to then move the cubesat to be modelled around an aestorid.</p>
+     
+</section>       
        
     </main>
 </body>
